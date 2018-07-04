@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BrNStdRg';
+    src: url('fonts/BrNStdRg.eot');
+    src: url('fonts/BrNStdRg.eot') format('embedded-opentype'),
+         url('fonts/BrNStdRg.woff2') format('woff2'),
+         url('fonts/BrNStdRg.woff') format('woff'),
+         url('fonts/BrNStdRg.ttf') format('truetype'),
+         url('fonts/BrNStdRg.svg#BrNStdRg') format('svg');
+}
