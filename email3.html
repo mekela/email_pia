@@ -67,7 +67,10 @@ img{
             table.center-on-narrow {
                 display: inline-block !important;
             }
-                
+
+            table[class="container"] {width: 100%;text-align: center;margin: 0 auto;} /* we want to use the full device width for mobiles */
+			table[class="table-left"] {width: 100%;text-align: center;margin: 0 auto;}
+			table[class="table-right"] {width: 100%;text-align: center;margin: 0 auto;}     
                 
                 
                 }
@@ -159,9 +162,11 @@ table[class="container"] {width: 600px;} /* the container table should not exten
                         <td  valign="middle">
                         	<table align="left" border="0" cellpadding="0" cellspacing="0" class="table-left" 
                             style="display: inline-block;vertical-align:middle;" width="400">
+                            <tbody style="margin: 0 auto;width: 251px;display: block;">
                         		<tr>
                         			<td style="text-align: center;" align="center"><center><a href="#"><img src="http://verstka.sania.net.ua/email_pia/images/Youtube.png" alt="" style="max-width:100%;" /></a></center></td>
                         		</tr>
+                        	</tbody>
                         	</table>
                         	<table align="left" border="0" cellpadding="0" cellspacing="0" class="table-right" 
                             style="display: inline-block;vertical-align:middle;padding-top: 35px;" width="400">
@@ -224,7 +229,7 @@ table[class="container"] {width: 600px;} /* the container table should not exten
 									<table align="center" class="table "  cellspacing="0" cellpadding="0" width="400"   bgcolor="#c4161c">
 										<tr>
 											<td  class="font3" style="font-family:'BrNStdBd', Myriad Pro, Tahoma, Arial, sans-serif;font-size:22px;color:#ffffff;font-style:normal;text-align:left;padding-top:10px;" >
-											<font face="sans-serif" >AT PIA, YOUR PROPERTY IS OUR TOP PRIORITY</font>
+											<font face="BrNStdBd, Myriad Pro, Tahoma, Arial, sans-serif" >AT PIA, YOUR PROPERTY IS OUR TOP PRIORITY</font>
 												 
 												
 											</td>
@@ -232,7 +237,7 @@ table[class="container"] {width: 600px;} /* the container table should not exten
 										
 										<tr>
 											<td  class="font3" style="font-family:'BrNStdRg', Myriad Pro, Tahoma, Arial, sans-serif;font-size:20px;color:#ffffff;font-style:normal;text-align:left;padding-top:0px;" >
-											02 9192 2800 | <a href="http://www.pia.com.au/en/" style="text-decoration:none;color:#ffffff;" >
+											<a href="tel:0291922800" style='text-decoration:none;font-family: BrNStdBd, Myriad Pro, Tahoma, Arial, sans-serif;color: #fff;' >02 9192 2800</a> | <a href="http://www.pia.com.au/en/" style="text-decoration:none;color:#ffffff;" >
 											pia.com.au</a>
 												 
 												
@@ -240,7 +245,7 @@ table[class="container"] {width: 600px;} /* the container table should not exten
 										</tr>
 										<tr>
 											<td  class="font3" style="font-family:'BrNStdRg', Myriad Pro, Tahoma, Arial, sans-serif;font-size:14px;color:#ffffff;font-style:normal;text-align:left;padding-bottom:0px;" >
-												<font face="sans-serif" class="contact">2 Australia Ave, Sydney Olympic Park, NSW 2127</font>
+												<a href='#' style='text-decoration:none;font-family: BrNStdBd, Myriad Pro, Tahoma, Arial, sans-serif;color: #fff;' class="contact">2 Australia Ave, Sydney Olympic Park, NSW 2127</a>
 												
 											</td>
 										</tr>
